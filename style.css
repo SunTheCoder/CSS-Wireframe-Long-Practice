@@ -1,3 +1,10 @@
+.upper__left {
+    position: relative;
+    top: 13em;
+    scale: 40%;
+    right: 9em
+}
+
 .upper__right {
     text-align: end;
     padding: 0;
@@ -6,6 +13,10 @@
 .upper__right > a{
     text-decoration: none;
     color: rgb(16, 251, 43);
+}
+
+.sign-in {
+    margin-right: 1em;
 }
 
 .get-started {
@@ -19,24 +30,32 @@
 }
 
 .nav__lower{
+    
     text-decoration: none;
     text-align: center;
+    
 }
 
 .nav__lower > a {
     text-decoration: none;
-    padding: 0em 5em 0em 5em;
+    margin: 0em 5em 0em 5em;
 }
 
 
 .content {
     text-align: center;
+    margin-left: 30em;
+    margin-right: 30em;
     
 }
 
-.external_links > ul {
-    text-align: start;
-    padding-left: 62em;
+p {
+    text-align: left;
+}
+.external_links {
+    text-align: left;
+    display: inline;
+    margin-right: 80em;
     
 }
 
@@ -45,29 +64,47 @@
     
 }
 
+
 .grid {
     display: grid;
     grid-template-columns: 2;
     grid-template-rows: 2;
-    text-align: center;
+    justify-items: center;
+    
+    
+
 }
+
+
 
 #one {
     grid-column: 1 / 2;
     grid-row: 1;
+    text-align: left;
+    
+   
     
 }
 
 #two {
     grid-column: 2 / 2;
     grid-row: 1;
+    text-align: left;
+
+
 }
 
 #three {
     grid-column: 1 / 2;
     grid-row: 2;
+    text-align: left;
+   
+
+
 }
 #four {
     grid-column: 2 / 2;
     grid-row: 2;
+    text-align: left;
+
 }
